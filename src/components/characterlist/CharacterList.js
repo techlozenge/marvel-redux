@@ -3,6 +3,8 @@ import CharacterCard from '../charactercard/CharacterCard';
 import _ from 'lodash';
 import { Grid, Row } from 'react-bootstrap';
 
+import Load from '../load/Load';
+
 export class CharacterList extends Component {
 
   componentDidMount() {
@@ -11,8 +13,8 @@ export class CharacterList extends Component {
 
   render() {
 
-    let characters = "Loading...";
-
+    let characters = <Load />;
+   
     if(!_.isEmpty(this.props.characters)){
 
       if(this.props.characters.characters.length){
