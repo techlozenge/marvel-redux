@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: OTcP7OQgZbwSaNOyrSHwVYZS8kkxc8FnaTWI1oINKC7ZmCqO6DotgF2JEB2lUW7cpXjI3Uaya0gGIDVZk8HXLMxF6SQZdLv2DTXj8uxiVb/b8VzLpGCfj3UDyETWdwXO2persA0II0NKeVdo1gSIm1CD32jqB/qvblh/WesbSd3O4WU5TJRsL1aKS95K4yXljYeYW7qWezsL6pdkeA4nrfeA4TcB578luLylsCgUhFR+J9nnFX0ZWqBYqvb/WqzmyBMtOCuzDRW1UhAxaG+WNtPSeeUIOdjSuJZHA+fn6x3pXp0c82qa/+fHxDi5Hkbwq/a0DKg5RAEQmFIJWoYCpZguUNNLuF2kq4hqmd1AtiPDQrqLDGX5RfvjeN+DUwI40BHE8/XLOsEyi6ng0NWAj/QV7QK7B00yZzgo6gOXZycydfk44ZZkg2lAQyaviZWC2jKh3gnX3ytTAR71oPGLhV5UCqFPLKF2NBTOGqQIsjzNCOCCvTIonvjE5HPo1tibG+azOae06XTvErHk9Eh6E7ufIFMFhku/Ba0ILJo6Kv90f5XbF5uZ/Zo2dnzNfes9jqM6kqPvECl8pWO3NCsx7xoO0nVR9ChXytkxidZTga+qgb5qPph08GH/wYIBi0wfWYOXIkcSFwHw3HZGjVgrhGOpWFUfyv8MN9zH22lfH0w=
+  app: aqueous-everglades-91869
+  on:
+    repo: techlozenge/marvel-redux
